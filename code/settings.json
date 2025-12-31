@@ -1,0 +1,64 @@
+{ 
+    "workbench.colorCustomizations": {
+        "foreground": "#cccccc",
+        "editor.background": "#000000",
+        "editor.foreground": "#cccccc",
+        "editorLineNumber.foreground": "#cccccc",
+        "editorLineNumber.activeForeground": "#cccccc",
+        "activityBar.background": "#000000",
+        "activityBar.inactiveForeground": "#cccccc",
+        "sideBar.background": "#000000",
+        "sideBar.foreground": "#cccccc",
+        "minimap.background": "#000000",
+        "editorGroupHeader.tabsBackground": "#000000",
+        "tab.inactiveBackground": "#000000",
+        "tab.inactiveForeground": "#cccccc",
+        "statusBar.background":"#000000",
+        "statusBar.foreground": "#cccccc",
+        "editorComment.foreground": "#cccccc"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Courier New', monospace",
+    "workbench.iconTheme": "ayu",
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.stickyScroll.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 2,
+    "editor.pasteAs.preferences": [
+        
+    ],
+    
+    "files.exclude": {
+        "**/.env": true,
+        "**/node_modules": true,
+        "**/sanitized_2024_11_22.dump": true
+    },
+    "workbench.view.alwaysShowHeaderActions": true,
+    "cursor.general.gitGraphIndexing": "disabled",
+    "dateTime.locale": "es-us",
+    "dateTime.padDays": true,
+    "dateTime.showAMPM": true,
+    "dateTime.timeZone": "America/New_York",
+    "dateTime.use24HourClock": false,
+    "rubyLsp.rubyVersionManager": {
+        "identifier": "rvm"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editor.enablePreview": false,
+    "rubyLsp.rubyExecutablePath": "/home/josh/.local/share/mise/installs/ruby/3.4.7/bin/ruby",
+    "prettier.configPath": "/home/josh/benefix/.prettierrc.yml",
+    "prettier.bracketSameLine": true,
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "window.menuBarVisibility": "compact",
+    "window.titleBarStyle": "native",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.size": "fill",
+    "editor.minimap.showSlider": "always",
+    "window.customTitleBarVisibility": "never",
+    
+  }
