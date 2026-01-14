@@ -60,5 +60,6 @@
     "editor.minimap.size": "fill",
     "editor.minimap.showSlider": "always",
     "window.customTitleBarVisibility": "never",
-    
+    "zenMode.hideLineNumbers": false
+
   }
