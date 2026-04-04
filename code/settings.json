@@ -18,7 +18,7 @@
         "editorComment.foreground": "#cccccc"
     },
     "files.autoSave": "afterDelay",
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Courier New', monospace",
+    "editor.fontFamily": "'Terminus (TTF)', JetBrainsMono Nerd Font', monospace",
     "workbench.iconTheme": "ayu",
     "explorer.confirmDelete": false,
     "workbench.activityBar.location": "top",
