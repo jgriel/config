@@ -1,0 +1,40 @@
+add_newline = false
+format = """$directory$git_branch$git_status$character"""
+
+[character]
+success_symbol = "[>](bold green)" # Use your preferred light blue hex
+error_symbol = "[>](bold red)"
+
+[directory]
+truncate_to_repo = true # Keeps the path short
+
+[git_branch]
+style = "bold #8BE9FD"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+format = '([$all_status]($style) )'
+ahead = "⇡"
+behind = "⇣"
+diverged = "⇕"
+up_to_date = "✓"
+untracked = "?"
+stashed = "^"
+modified = "*"
+staged = "+"
+renamed = "»"
+deleted = "✘"
+conflicted = "="
+
+
+[status]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[ruby]
+disabled = true
+
+[package]
+disabled = true
