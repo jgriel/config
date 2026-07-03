@@ -1,0 +1,38 @@
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal = { family = "Terminus (TTF)", style = "Regular" }
+bold = {   family = "Terminus (TTF)", style = "Bold" }
+italic = { family = "Terminus (TTF)", style = "Italic" }
+size = 12
+
+[colors.primary]
+background = "#000000"
+foreground = "#cccccc"
+
+[colors.normal]
+black   = "#000000"
+red     = "#cd0000"
+green   = "#00cd00"
+yellow  = "#cdcd00"
+blue    = "#5555ff"
+magenta = "#cd00cd"
+cyan    = "#00cdcd"
+white   = "#e5e5e5"
+
+[window]
+padding.x = 14
+padding.y = 14
+decorations = "None"
+
+[keyboard]
+bindings = [
+{ key = "F11", action = "ToggleFullscreen" },
+{ key = "Insert", mods = "Shift", action = "Paste" },
+{ key = "Insert", mods = "Control", action = "Copy" },
+  { key = "Return", mods = "Shift", chars = "\u001B\r" }
+]
+
+[terminal]
+osc52 = "CopyPaste"
